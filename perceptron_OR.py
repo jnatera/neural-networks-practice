@@ -49,7 +49,7 @@ if (__name__ == "__main__"):
     print(file_excel)
     print("\n")
     theta=0.4 #Umbral para restar el potencial post-sinaptico
-    fac_ap=0.2
+    fac_ap=0.2 # Coeficiente de aprendizaje
     w=[0.3,0.5,0.0] # Pesos de cada
     epochs=1
     x_trainer=[file_excel['x1'],file_excel['x2'],file_excel['x3']] # Set de entrenamiento
